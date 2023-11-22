@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela Brasileirão</title>
+      </head>
+      
+      <body>
+        <h1>Classificação Brasileirão</h1>
+        <input type="text" id="campoNomeTime" placeholder="digite o nome do time" />
+        <input type="text" id="campoEscudoTime" placeholder="insira o escudo do time" />
+        <button onclick="criarTime()">Adicionar Time</button>
+      
+        <table style="width: 100%">
+          <thead>
+            <tr>
+              <th>Escudo</th>
+              <th>Nome</th>
+              <th>Vitórias</th>
+              <th>Empates</th>
+              <th>Derrotas</th>
+              <th>Pontos</th>
+              <th colspan="5">Ações</th>
+            </tr>
+          </thead>
+          <tbody id="tabelaTimes">
+      
+          </tbody>
+        </table>
+        <button onclick="ApagaTimes()">Apagar Todos os Times</button>
+      </body>
+      
+      </html>

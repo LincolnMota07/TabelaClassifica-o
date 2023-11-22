@@ -1,0 +1,71 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "Ubuntu", sans-serif;
+    min-height: 400px;
+    background-image: url(https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/03/22/futebol-2.jpg?itok=9EKJg3HF);
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #eef5ff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #eef5ff;
+    margin-top: 5px;
+  }
+  
+  table {
+    border: 3px blue;
+    border: collapse;
+    background: black;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th,
+  tr,
+  td {
+    border: solid 2px #0766ad;
+    color: white;
+  }
+  
+  button {
+    background-color: #0766ad;
+    color: #f6f6f6;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 1rem;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  input {
+    border-radius: 3px;
+  }
+  input:hover {
+    background-color: #c2d9ff;
+  }
+  
+  #tabelaTimes img {
+    margin: 10px;
+    max-height: 50px;
+  }
+  
